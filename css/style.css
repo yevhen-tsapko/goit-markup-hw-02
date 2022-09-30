@@ -1,0 +1,211 @@
+:root {
+  --title-text-color: #212121;
+  --text-color: #757575;
+  --focus-color: #2196f3;
+  --accent-background-color: #2f303a;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: var(--title-text-color);
+  letter-spacing: 0.03em;
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/* buttons */
+.hero-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--focus-color);
+  border-style: none;
+
+  cursor: pointer;
+}
+.hero-btn:active {
+  background-color: #188ce8;
+}
+.filter-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-colour);
+  background-color: #f5f4fa;
+  border-style: none;
+
+  cursor: pointer;
+}
+.filter-button.active {
+  background: var(--focus-color);
+}
+/* header */
+.header-nav {
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+.logo-part {
+  color: var(--focus-color);
+}
+
+.header-list {
+}
+.header-item {
+}
+.header-link,
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.header-contacts {
+  colour: var(--text-color);
+}
+.header-link:hover,
+.header-link:focus,
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--focus-color);
+}
+.current {
+  color: var(--focus-color);
+}
+/* Hero */
+.hero {
+  background-color: var(--accent-background-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/* Benefits */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.benefits-text {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--text-colour);
+}
+/* Products */
+.products-list {
+}
+.products-item {
+}
+/* Team */
+.section.background {
+  background-color: #f5f4fa;
+}
+.team-list {
+}
+.team-item {
+}
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-text {
+  line-height: 19px;
+  text-align: center;
+  color: var(--text-color);
+}
+/* footer */
+.footer {
+  background-color: var(--accent-background-color);
+}
+.footer .logo {
+  color: #fff;
+}
+.adress-list {
+}
+.list {
+}
+.mail {
+  font-style: normal;
+  line-height: 1.71;
+  color: #ffffff;
+}
+.adress-link {
+  font-style: normal;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.mail:hover,
+.mail:focus,
+.adress-link:hover,
+.adress-link:focus {
+  color: var(--focus-color);
+}
+/* Portfolio */
+.portfolio-filter {
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-text {
+  line-height: 1.88;
+  color: var(--text-color);
+}
