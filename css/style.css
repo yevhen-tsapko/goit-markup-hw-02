@@ -44,7 +44,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-colour);
+  color: var(--title-text-color);
   background-color: #f5f4fa;
   border-style: none;
 
@@ -136,7 +136,7 @@ body {
 .benefits-text {
   font-size: 14px;
   line-height: 1.71;
-  color: var(--text-colour);
+  color: var(--text-color);
 }
 /* Products */
 .products-list {
@@ -200,6 +200,7 @@ body {
 }
 
 .portfolio-title {
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
